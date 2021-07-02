@@ -10,7 +10,7 @@ export default {
   // Meta information
   head() {
     return {
-      title: "Senior Googler's 4800 Project Page",
+      title: "Senior Googlers 4800 Project Page",
     };
   },
 };
