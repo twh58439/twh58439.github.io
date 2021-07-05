@@ -2,7 +2,7 @@
   <div>
     <b-navbar type="light" variant="light">
     <b-navbar-brand href="#">
-      <img src="~/assets/images/logo_1.png" alt="Kitten" 
+      <img src="~/static/assets/images/logo_1.png" alt="Kitten" 
         height="80px"
         width="80px"
       >
