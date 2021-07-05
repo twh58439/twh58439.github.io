@@ -5,17 +5,25 @@
     </b-container>
     <b-container fluid="sm" class="">
       <b-row
-        ><p>
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum."
-        </p></b-row
-      >
-      <b-row><p>More text if needed.</p></b-row>
+        ><h6>Improving <b>Hybrid Synchronous</b> learning by improving 
+        software to increase student-student and teacher-student engagement.</h6>
+        <p>
+          Online learning has steadily risen over the past decade, and as of
+          December of 2019, both syncronous and asynchronous online learning
+          platforms such as Udacity and Coursera are projected to reach a market
+          value of
+          <a
+            href="https://www.researchandmarkets.com/reports/4876815/online-education-market-and-global-forecast-by?utm_source=dynamic&utm_medium=BW&utm_code=nvzl68&utm_campaign=1334853+-+$350+Billion+Online+Education+Market:+Global+Forecast+to+2025+by+End+User,+Learning+Mode+(Self-Paced,+Instructor+Led),+Technology,+Country,+Company&utm_exec=chdo54bwd"
+          >
+            $350 billion</a
+          >
+          dollars.
+        </p>
+        <p>However, Covid-19 created a new instructional format known as 
+          <a href="https://reg.uga.edu/enrollment-and-registration/instructional-formats/">
+          Hybrid Synchronous</a>.
+        </p>
+      </b-row>
     </b-container>
   </div>
 </template>
