@@ -3,11 +3,12 @@
     <Navbar />
     <Welcome />
     <Synopsis />
+    <NavTabs />
   </div>
 </template>
 
 <script>
-import Synopsis from '../components/Synopsis.vue';
+import Synopsis from '~/components/Synopsis.vue';
 export default {
   components: { Synopsis },
   // Meta information
