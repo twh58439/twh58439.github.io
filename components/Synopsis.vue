@@ -15,7 +15,7 @@
           culpa qui officia deserunt mollit anim id est laborum."
         </p></b-row
       >
-      <b-row><p>More text if needed. test</p></b-row>
+      <b-row><p>More text if needed.</p></b-row>
     </b-container>
   </div>
 </template>
