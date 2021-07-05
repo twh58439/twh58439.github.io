@@ -7,7 +7,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "nuxt generate && gh-pages -d dist"
+    "deploy": "nuxt generate && gh-pages -d dist",
+    "pushdir": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
@@ -16,6 +17,7 @@
     "nuxt": "^2.15.7"
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "push-dir": "^0.4.1"
   }
 }
