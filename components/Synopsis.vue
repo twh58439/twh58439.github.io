@@ -22,8 +22,8 @@
           dollars.
         </p>
         <p>
-          However, Covid-19 created a new instructional format defined by the
-          University of Georgia as Hybrid Synchronous learning, which faces
+          However, Covid-19 created a new instructional format, known by the
+          University of Georgia as Hybrid Synchronous Instruction, which faces
           different challenges than purely online learning.
         </p>
 
@@ -69,7 +69,7 @@
         <h6>
           The Senior Googlers aim to eliminate the difference between in-person
           and online students and create the same learning experience
-          independent of location by improving the interaction systems of zoom
+          independent of location by improving the interaction systems of Zoom,
           and integrating them with the organizational and feedback-driven
           systems of learning platforms like Moodle or ELC.
         </h6>

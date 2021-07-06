@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main-body">
     <Navbar />
     <Welcome />
     <Synopsis />
@@ -19,3 +19,12 @@ export default {
   },
 };
 </script>
+
+<style>
+/* Gives padding to the bottom of the document so text isnt forced 
+   to the edge of the page
+ */
+#main-body {
+  padding-bottom: 5em;
+}
+</style>
