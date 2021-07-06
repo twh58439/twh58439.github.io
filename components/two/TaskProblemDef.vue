@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-container fluid class="mt-3 mb-3 d-flex justify-content-center">
+    <b-container fluid class="mt-5 d-flex justify-content-center">
       <h3>Task / Problem Definition</h3>
     </b-container>
     <b-container fluid="sm" class="">
@@ -56,16 +56,18 @@
           Synchronous format.
         </p>
       </b-row>
-      <b-row class="flex justify-content-center">
+      <b-row class="flex justify-content-center mt-4">
         <h4>Seven Stages of Action</h4>
       </b-row>
       <b-row
         >To illustrate the difficulties faced by Hybrid Synchronous students, we
         will use the Seven Stages of Action to demonstrate the difference
-        between online and in-person students asking a question.</b-row
+        between online and in-person students asking a question. Interacting
+        with the instructor by asking questions or making comments is a critical
+        part of any classroom setting.</b-row
       >
       <b-row class="mt-3">
-        <b-col class="">
+        <b-col>
           <h5><u>In-Person</u></h5>
           <ol>
             <li>
@@ -118,6 +120,16 @@
             </li>
           </ol>
         </b-col>
+      </b-row>
+      <b-row class="mt-4 flex justify-content-center">
+        <h4>Potential Users</h4>
+      </b-row>
+      <b-row>
+        <p>
+          Instructors and students are the obvious users of this technology.
+          However, improving person-person interactions will aid all potential
+          users who utilize similar hybrid meeting formats.
+        </p>
       </b-row>
     </b-container>
   </div>

@@ -2,13 +2,9 @@
   <div>
     <b-navbar type="light" variant="light">
     <b-navbar-brand href="#">
-      <img src="~/static/images/logo_1.png" alt="Kitten" 
-        height="60px"
-        width="60px"
-      >
     </b-navbar-brand>
       <b-navbar-nav>
-        <b-nav-item href="#scrollSpace">Milestones</b-nav-item>
+        <b-nav-item href="#nav-tabs">Milestones</b-nav-item>
       </b-navbar-nav>
     </b-navbar>
   </div>

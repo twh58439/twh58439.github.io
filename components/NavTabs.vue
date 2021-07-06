@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5 mb-3">
+  <div class="mt-5 mb-3" id="nav-tabs">
     <b-nav pills class="flex justify-content-center">
       <b-nav-item
         id="milestoneTwo"

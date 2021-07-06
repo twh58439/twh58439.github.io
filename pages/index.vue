@@ -1,14 +1,19 @@
 <template>
-  <div id="main-body">
-    <Navbar />
-    <Welcome />
-    <Synopsis />
-    <NavTabs />
+  <div>
+    <div id="main-body">
+      <Navbar />
+      <Welcome />
+      <Synopsis />
+      <NavTabs />
+    </div>
+    <div>
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
-import Synopsis from '~/components/Synopsis.vue';
+import Synopsis from "~/components/Synopsis.vue";
 export default {
   components: { Synopsis },
   // Meta information
@@ -25,6 +30,6 @@ export default {
    to the edge of the page
  */
 #main-body {
-  padding-bottom: 5em;
+  padding-bottom: 3em;
 }
 </style>
