@@ -1,6 +1,7 @@
 <template>
   <div b-container fluid id="two">
     <TwoTaskProblemDef />
+    <TwoProposedSolution />
   </div>
 </template>
 
