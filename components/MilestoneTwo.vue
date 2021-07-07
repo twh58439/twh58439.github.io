@@ -1,6 +1,7 @@
 <template>
   <div>
     <TwoTaskProblemDef />
-    <TwoProposedSolution />
+    <TwoAnalysisExistingSolutions class="mt-4" />
+    <TwoProposedSolution class="mt-4" />
   </div>
 </template>
