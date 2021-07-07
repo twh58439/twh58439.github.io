@@ -1,12 +1,3 @@
 <template>
-  <div b-container fluid>
-    <ThreePlaceholder />
-  </div>
+  <ThreePlaceholder />
 </template>
-
-<script>
-export default {};
-</script>
-
-<style>
-</style>

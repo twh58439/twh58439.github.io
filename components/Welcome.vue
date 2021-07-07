@@ -1,19 +1,16 @@
 <template>
   <div>
-    <b-container fluid class="mt-3 mb-3 d-flex justify-content-center">
-      <h1>Senior Googlers</h1>
-    </b-container>
-    <b-container fluid class="mt-3 mb-3 d-flex justify-content-center">
-      <h2>CSCI 4800</h2>
-    </b-container>
-    <b-container fluid class="mt-3 mb-3 d-flex justify-content-center">
-      <p>Daniel Fiegiel, Thomas Horn, Drew Jenkins, Eric Kim, David Youngblood, Adamya Singh</p>
+    <b-container class="my-3">
+      <header class="text-center">
+        <h1>Senior Googlers</h1>
+        <h2>CSCI 4800</h2>
+        <p>
+          Daniel Fiegiel, Thomas Horn, Drew Jenkins, Eric Kim, Adamya Singh,
+          David Youngblood
+        </p>
+      </header>
+      <Synopsis />
+      <NavTabs />
     </b-container>
   </div>
 </template>
-<script>
-export default {};
-</script>
-
-<style>
-</style>

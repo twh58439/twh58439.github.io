@@ -1,75 +1,29 @@
 <template>
-  <div class="mt-5 mb-3" id="nav-tabs">
-    <b-nav pills class="flex justify-content-center">
-      <b-nav-item
-        id="milestoneTwo"
-        @click="onMilestoneTwo"
-        :active="activeMilestoneTwo"
-				href="#scrollSpace"
-        >Milestone 2</b-nav-item
-      >
-      <b-nav-item
-        id="milestoneThree"
-        @click="onMilestoneThree"
-        :active="activeMilestoneThree"
-				href="#scrollSpace"
-        >Milestone 3</b-nav-item
-      >
-      <b-nav-item
-        id="milestoneFour"
-        @click="onMilestoneFour"
-        :active="activeMilestoneFour"
-				href="#scrollSpace"
-        >Milestone 4</b-nav-item
-      >
-    </b-nav>
-
-		<!-- Actual milestone content -->
-		<p id="scrollSpace"></p>
-		<MilestoneTwo v-show="activeMilestoneTwo" />
-		<MilestoneThree v-show="activeMilestoneThree" />
-		<MilestoneFour v-show="activeMilestoneFour" />
-	  </div>
+  <b-card no-body>
+    <b-tabs pills fill card content-class="tab-content">
+      <b-tab title="Milestone 2" active>
+        <b-card-text>
+          <MilestoneTwo />
+        </b-card-text>
+      </b-tab>
+      <b-tab title="Milestone 3">
+        <b-card-text>
+          <MilestoneThree />
+        </b-card-text>
+      </b-tab>
+      <b-tab title="Milestone 4">
+        <b-card-text>
+          <MilestoneFour />
+        </b-card-text>
+      </b-tab>
+    </b-tabs>
+  </b-card>
 </template>
 
-<script>
-export default {
-  name: "NavTabs",
-
-  data() {
-    return {
-      activeMilestoneTwo: false,
-      activeMilestoneThree: false,
-			activeMilestoneFour: false,
-    };
-  },
-
-  methods: {
-		onMilestoneTwo()  {
-			this.activeMilestoneTwo = !this.activeMilestoneTwo;
-			this.activeMilestoneThree = false;
-			this.activeMilestoneFour = false;
-		},
-
-    onMilestoneThree() {
-      this.activeMilestoneTwo = false;
-      this.activeMilestoneThree = !this.activeMilestoneThree;
-			this.activeMilestoneFour = false;
-    },
-
-		onMilestoneFour() {
-			this.activeMilestoneTwo = false;
-			this.activeMilestoneThree = false;
-			this.activeMilestoneFour = !this.activeMilestoneFour;
-		},
-
-		deactivate() {
-			this.onMilestoneTwo = false;
-		},
-		
-  },
-};
-</script>
-
 <style>
+.tab-content {
+  height: 75vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
 </style>
