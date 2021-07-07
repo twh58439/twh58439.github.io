@@ -1,6 +1,6 @@
 <template>
-  <b-card no-body>
-    <b-tabs pills fill card content-class="tab-content">
+  <b-card class="shadow" id="milestones" no-body>
+    <b-tabs content-class="tab-content" pills fill card>
       <b-tab title="Milestone 2" active>
         <b-card-text>
           <MilestoneTwo />

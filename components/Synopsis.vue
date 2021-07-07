@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h3 class="text-center">Synopsis</h3>
-    <p class="text-center text-secondary">
+    <h2 id="synopsis">Synopsis</h2>
+    <p class="text-secondary">
       Improving Hybrid Synchronous learning by improving software to increase
       student-student and teacher-student engagement.
     </p>
@@ -9,7 +9,9 @@
       Online learning has steadily risen over the past decade, and as of
       December of 2019, both syncronous and asynchronous online learning
       platforms such as Udacity and Coursera are projected to reach a market
-      value of <a href="https://tinyurl.com/y698ny54">$350 billion</a> dollars.
+      value of
+      <a href="https://tinyurl.com/y698ny54" target="_blank">$350 billion</a>
+      dollars.
     </p>
     <p>
       However, Covid-19 created a new instructional format, known by the
@@ -17,9 +19,9 @@
       different challenges than purely online learning.
     </p>
     <!-- Card -->
-    <b-card class="my-4">
+    <b-card class="my-4 shadow">
       <h5>
-        <a href="https://tinyurl.com/yj34exvl">
+        <a href="https://tinyurl.com/yj34exvl" target="_blank">
           Hybrid Synchronous Instructional Format
         </a>
       </h5>

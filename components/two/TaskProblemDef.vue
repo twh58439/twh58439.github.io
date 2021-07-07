@@ -6,10 +6,12 @@
       student-student and student-teacher interaction needs improvement.
     </p>
     <p>
-      <a href="https://tinyurl.com/y4gcnwxq">A study by Guo and Kim (2014)</a>
+      <a href="https://tinyurl.com/y4gcnwxq" target="_blank"
+        >A study by Guo and Kim (2014)</a
+      >
       found that student engagement drops up to 50% in just 7-9 minutes of
       watching an online lecture.
-      <a href="https://tinyurl.com/ygyqq63e">
+      <a href="https://tinyurl.com/ygyqq63e" target="_blank">
         Yale's Center for Teaching and Learning
       </a>
       acknowledges these problems with online learning, and specifically
@@ -33,9 +35,10 @@
       "raise hand" feature to indicate they have a question), or interrupt the
       professor to ensure they are heard. The polling interface is also
       rudementary and is not a 1:1 replacement for a true quizzing system like
-      <a href="https://kahoot.com/">Kahoot</a>, and requries students willingly
-      engage with the question. The teacher must manually check who answered the
-      poll, if they wish to enforce student poll engagement.
+      <a href="https://kahoot.com/" target="_blank">Kahoot</a>, and requries
+      students willingly engage with the question. The teacher must manually
+      check who answered the poll, if they wish to enforce student poll
+      engagement.
     </p>
     <p>
       All of these systems also suffer from a lack of integration with a

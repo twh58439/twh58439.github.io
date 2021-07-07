@@ -1,18 +1,10 @@
 <template>
-  <div>
-    <b-navbar type="light" variant="light">
-    <b-navbar-brand href="#">
-    </b-navbar-brand>
-      <b-navbar-nav>
-        <b-nav-item href="#nav-tabs">Milestones</b-nav-item>
+  <b-navbar type="light" variant="light">
+    <b-container>
+      <b-navbar-nav content-class="text-primary">
+        <b-nav-item href="#synopsis">Synopsis</b-nav-item>
+        <b-nav-item href="#milestones">Milestones</b-nav-item>
       </b-navbar-nav>
-    </b-navbar>
-  </div>
+    </b-container>
+  </b-navbar>
 </template>
-
-<script>
-export default {};
-</script>
-
-<style>
-</style>
