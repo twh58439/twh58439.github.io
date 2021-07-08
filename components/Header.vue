@@ -4,7 +4,7 @@
       <h1 class="display-4 font-weight-bold">Senior Googlers</h1>
       <p class="lead text-secondary">CSCI 4800</p>
       <p>
-        Daniel Fiegiel, Thomas Horn, Drew Jenkins, Eric Kim, Adamya Singh, David
+        Daniel Figiel, Thomas Horn, Drew Jenkins, Eric Kim, Adamya Singh, David
         Youngblood
       </p>
       <b-button variant="primary" href="#milestones">Milestones</b-button>
