@@ -43,5 +43,28 @@
         </li>
       </ul>
     </b-row>
+    <h4>Mockup Progression</h4>
+    <h6>Discussion Section</h6>
+    <b-row class="mt-3">
+      <b-img
+        fluid-grow
+        src="~assets/low_fidelity/questions_discussion_main.png"
+      ></b-img>
+      <b-img
+        class="mt-2"
+        fluid-grow
+        src="~assets/high_fidelity/questions_discussion_main.png"
+      ></b-img>
+      <h6 class="mt-3">Teacher View</h6>
+      <b-img
+        fluid-grow
+        src="~/assets/low_fidelity/questions_teacher_layout.png"
+      ></b-img>
+      <b-img
+        class="mt-2"
+        fluid-grow
+        src="~/assets/high_fidelity/questions_teacher_layout.png"
+      ></b-img>
+    </b-row>
   </div>
 </template>
