@@ -48,5 +48,32 @@
         </li>
       </ul>
     </b-row>
+    <h4>Mockup Progression</h4>
+    <b-row class="">
+      <b-col>
+        <h6>Gradebook</h6>
+        <b-img
+          fluid-grow
+          src="../../assets/low_fidelity/quiz_gradebook_student_view.png"
+        ></b-img>
+        <b-img
+          class="mt-2"
+          fluid-grow
+          src="~assets/high_fidelity/questions_discussion_main.png"
+        ></b-img>
+      </b-col>
+      <b-col>
+        <h6 class="">Teacher View</h6>
+        <b-img
+          fluid-grow
+          src="~/assets/low_fidelity/questions_teacher_layout.png"
+        ></b-img>
+        <b-img
+          class="mt-2"
+          fluid-grow
+          src="~/assets/high_fidelity/questions_teacher_layout.png"
+        ></b-img>
+      </b-col>
+    </b-row>
   </div>
 </template>
