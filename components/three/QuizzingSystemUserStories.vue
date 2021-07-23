@@ -57,7 +57,7 @@
           src="../../assets/low_fidelity/quiz_gradebook_student_view.png"
         ></b-img>
         <b-img
-          class="mt-2"
+          class=""
           fluid-grow
           src="~assets/high_fidelity/questions_discussion_main.png"
         ></b-img>

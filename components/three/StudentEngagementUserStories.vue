@@ -57,5 +57,32 @@
         </li>
       </ul>
     </b-row>
+    <h4>Mockup Progression</h4>
+    <b-row class="">
+      <b-col>
+        <h6>Chat Section</h6>
+        <b-img
+          fluid-grow
+          src="~/assets/low_fidelity/engagement_chat_history.png"
+        ></b-img>
+        <b-img
+          class="mt-2"
+          fluid-grow
+          src="~/assets/high_fidelity/engagement_chat_history.png"
+        ></b-img>
+      </b-col>
+      <b-col>
+        <h6 class="">Grid View</h6>
+        <b-img
+          fluid-grow
+          src="~/assets/low_fidelity/engagement_grid_view.png"
+        ></b-img>
+        <b-img
+          class="mt-2"
+          fluid-grow
+          src="~/assets/high_fidelity/engagement_grid_view.png"
+        ></b-img>
+      </b-col>
+    </b-row>
   </div>
 </template>
