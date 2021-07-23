@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-5">
+  <div class="mt-4">
     <h3>Student Engagement: User Stories</h3>
     <p class="font-italic blockquote-header">
       "As a student, I want to have access to feedback and lecture content that
