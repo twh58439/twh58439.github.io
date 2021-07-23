@@ -54,24 +54,24 @@
         <h6>Gradebook</h6>
         <b-img
           fluid-grow
-          src="../../assets/low_fidelity/quiz_gradebook_student_view.png"
+          src="~/assets/low_fidelity/quiz_gradebook_student_view.png"
         ></b-img>
         <b-img
           class=""
           fluid-grow
-          src="~assets/high_fidelity/questions_discussion_main.png"
+          src="~assets/high_fidelity/quiz_gradebook_student_view.png"
         ></b-img>
       </b-col>
       <b-col>
-        <h6 class="">Teacher View</h6>
+        <h6 class="">Quiz View</h6>
         <b-img
           fluid-grow
-          src="~/assets/low_fidelity/questions_teacher_layout.png"
+          src="~/assets/low_fidelity/quiz_view.png"
         ></b-img>
         <b-img
           class="mt-2"
           fluid-grow
-          src="~/assets/high_fidelity/questions_teacher_layout.png"
+          src="~/assets/high_fidelity/quiz_view.png"
         ></b-img>
       </b-col>
     </b-row>
