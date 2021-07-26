@@ -1,12 +1,12 @@
 <template>
   <div class="mt-3">
     <h3>Quizzing System: User Stories</h3>
-    <p class="font-italic blockquote-header">
+    <p class="font-italic">
       "As a student, I want a quizzing system that makes me feel like I actually
       should be engaged in the course material rather than the traditional
       “attendance polls."
     </p>
-    <p class="font-italic blockquote-header">
+    <p class="font-italic">
       "As an instructor, I want a better quizzing system so that I may discern
       the current state of my student’s learning journey, regardless if they’re
       remote or in-person."
@@ -31,7 +31,7 @@
       material.
     </p>
     <h4>Functional Goals</h4>
-    <b-row class="mt-3">
+    <div class="mt-3">
       <ul>
         <li>
           This will involve having preset quizzes for each lecture with good
@@ -47,9 +47,9 @@
           for organizational reasons.
         </li>
       </ul>
-    </b-row>
+    </div>
     <h4>Mockup Progression</h4>
-    <b-row class="">
+    <b-row>
       <b-col>
         <h6>Gradebook</h6>
         <b-img
@@ -57,17 +57,13 @@
           src="~/assets/low_fidelity/quiz_gradebook_student_view.png"
         ></b-img>
         <b-img
-          class=""
           fluid-grow
           src="~assets/high_fidelity/quiz_gradebook_student_view.png"
         ></b-img>
       </b-col>
       <b-col>
-        <h6 class="">Quiz View</h6>
-        <b-img
-          fluid-grow
-          src="~/assets/low_fidelity/quiz_view.png"
-        ></b-img>
+        <h6>Quiz View</h6>
+        <b-img fluid-grow src="~/assets/low_fidelity/quiz_view.png"></b-img>
         <b-img
           class="mt-2"
           fluid-grow

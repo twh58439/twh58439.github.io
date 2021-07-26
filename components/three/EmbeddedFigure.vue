@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>High Fidelity Mockups</h2>
+    <h2>High Fidelity Mockup</h2>
     <p class="font-weight-light"></p>
     <b-embed
       style="border: 1px solid rgba(0, 0, 0, 0.1)"
@@ -14,15 +14,25 @@
     <a class="" style="font-size: 0.75rem" href="/team_project.fig" download>
       High Fidelity .fig Download
     </a>
-    <br>
-    <a class="" style="font-size: 0.75rem" href="student_engagement.fig" download>
+    <br />
+    <a
+      class=""
+      style="font-size: 0.75rem"
+      href="student_engagement.fig"
+      download
+    >
       Low Fidelity Student Engagment .fig Download
     </a>
-    <br>
-    <a class="" style="font-size: 0.75rem" href="student_questions.fig" download>
+    <br />
+    <a
+      class=""
+      style="font-size: 0.75rem"
+      href="student_questions.fig"
+      download
+    >
       Low Fidelity Questions .fig Download
     </a>
-    <br>
+    <br />
     <a class="" style="font-size: 0.75rem" href="/quizzing_system.fig" download>
       Low Fidelity Quizzing .fig Download
     </a>

@@ -22,7 +22,7 @@
       questions that will benefit even those physically in the classroom.
     </p>
     <h4>Functional Goals</h4>
-    <b-row class="mt-3">
+    <div class="mt-3">
       <ul>
         <li>
           Provide functionality for overlays for screen shares such as in the
@@ -42,11 +42,11 @@
           during the lecture.
         </li>
       </ul>
-    </b-row>
+    </div>
     <h4>Mockup Progression</h4>
-    <b-row class="">
+    <b-row>
       <b-col>
-    <h6>Discussion Section</h6>
+        <h6>Discussion Section</h6>
         <b-img
           fluid-grow
           src="~assets/low_fidelity/questions_discussion_main.png"
@@ -58,7 +58,7 @@
         ></b-img>
       </b-col>
       <b-col>
-        <h6 class="">Teacher View</h6>
+        <h6>Teacher View</h6>
         <b-img
           fluid-grow
           src="~/assets/low_fidelity/questions_teacher_layout.png"

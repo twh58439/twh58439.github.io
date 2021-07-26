@@ -1,9 +1,10 @@
 <template>
-<div>
-  <ThreeEmbeddedFigure />
-  <ThreeStudentEngagementUserStories />
-  <ThreeQuestionUserStories />
-  <ThreeQuizzingSystemUserStories />
-  <ThreeVideoSummary class="mt-3" />
-</div>
+  <div>
+    <ThreeEmbeddedFigure />
+    <ThreeIdeation />
+    <ThreeStudentEngagementUserStories />
+    <ThreeQuestionUserStories />
+    <ThreeQuizzingSystemUserStories />
+    <ThreeVideoSummary class="mt-3" />
+  </div>
 </template>
