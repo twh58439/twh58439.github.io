@@ -1,3 +1,9 @@
 <template>
-  <FourPlaceholder />
+  <div>
+    <FourOverview />
+    <FourDesignEvolution />
+    <FourTesting />
+    <FourProjectSummary />
+    <FourVideoSummary />
+  </div>
 </template>
