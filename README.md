@@ -1,5 +1,7 @@
 # [twh58439.github.io](https://twh58439.github.io)
 
+Vue.js website that contains our milestone deliverables for CSCI 4300 Human-Computer Interaction.
+
 ## Build Setup
 
 ```bash
